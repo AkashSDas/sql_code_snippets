@@ -209,9 +209,9 @@ ON employee.emp_id = branch.mrg_id;
 
 /* Other two types of joint are RIGHT and FULL */
 /* ================================= */
-/* *** NESTED QUAREIES *** */
+/* *** NESTED QUERIES *** */
 
-/* Inner quarey is first evaluated */
+/* Inner query is first evaluated */
 
 SELECT employee.first_name,employee.last_name
 FROM employee
